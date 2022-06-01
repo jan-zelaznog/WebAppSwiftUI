@@ -11,6 +11,11 @@
 		3DC546C52846FC0800C03877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546C42846FC0800C03877 /* ContentView.swift */; };
 		3DC546C72846FC0B00C03877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC546C62846FC0B00C03877 /* Assets.xcassets */; };
 		3DC546CA2846FC0B00C03877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC546C92846FC0B00C03877 /* Preview Assets.xcassets */; };
+		3DC546D12846FD5000C03877 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546D02846FD5000C03877 /* Inicio.swift */; };
+		3DC546D32846FE6900C03877 /* Cupones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546D22846FE6900C03877 /* Cupones.swift */; };
+		3DC546D52846FEA200C03877 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546D42846FEA200C03877 /* WebView.swift */; };
+		3DC546D72846FED500C03877 /* ComoSeUsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546D62846FED500C03877 /* ComoSeUsa.swift */; };
+		3DC546D92846FEF600C03877 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC546D82846FEF600C03877 /* Contacto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		3DC546C42846FC0800C03877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DC546C62846FC0B00C03877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC546C92846FC0B00C03877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DC546D02846FD5000C03877 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		3DC546D22846FE6900C03877 /* Cupones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupones.swift; sourceTree = "<group>"; };
+		3DC546D42846FEA200C03877 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3DC546D62846FED500C03877 /* ComoSeUsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComoSeUsa.swift; sourceTree = "<group>"; };
+		3DC546D82846FEF600C03877 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		3DC546DC2847031400C03877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,16 @@
 		3DC546C12846FC0800C03877 /* WebAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3DC546DC2847031400C03877 /* Info.plist */,
 				3DC546C22846FC0800C03877 /* WebAppSwiftUIApp.swift */,
 				3DC546C42846FC0800C03877 /* ContentView.swift */,
 				3DC546C62846FC0B00C03877 /* Assets.xcassets */,
 				3DC546C82846FC0B00C03877 /* Preview Content */,
+				3DC546D02846FD5000C03877 /* Inicio.swift */,
+				3DC546D22846FE6900C03877 /* Cupones.swift */,
+				3DC546D42846FEA200C03877 /* WebView.swift */,
+				3DC546D62846FED500C03877 /* ComoSeUsa.swift */,
+				3DC546D82846FEF600C03877 /* Contacto.swift */,
 			);
 			path = WebAppSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC546C52846FC0800C03877 /* ContentView.swift in Sources */,
+				3DC546D52846FEA200C03877 /* WebView.swift in Sources */,
+				3DC546D32846FE6900C03877 /* Cupones.swift in Sources */,
+				3DC546D72846FED500C03877 /* ComoSeUsa.swift in Sources */,
 				3DC546C32846FC0800C03877 /* WebAppSwiftUIApp.swift in Sources */,
+				3DC546D92846FEF600C03877 /* Contacto.swift in Sources */,
+				3DC546D12846FD5000C03877 /* Inicio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +294,7 @@
 				DEVELOPMENT_TEAM = E9KS5E39JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +324,7 @@
 				DEVELOPMENT_TEAM = E9KS5E39JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
